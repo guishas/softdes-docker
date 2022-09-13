@@ -1,0 +1,55 @@
+1) Instalar bibliotecas necessárias para rodar o projeto:
+
+Para isso, abra um terminal apertando "Windows + R" e escrevendo "cmd"
+
+pip install flask
+pip install flask_httpauth
+pip install sqlite3
+pip install hashlib
+pip install datetime
+
+2) Baixar o software DB Browser for SQLite
+
+https://sqlitebrowser.org/dl/
+
+3) Abrir software DB Browser for SQLite
+
+4) Clique em "Abrir banco de dados", navegue até a pasta
+do seu repositório e selecione o arquivo "quiz.db"
+
+5) Clique em "Executar SQL", navegue até a pasta do seu
+repositório e seleciona o arquivo "quiz.sql"
+
+6) Selecione todas as linhas e clique no botão azul para
+rodar todas as linhas selecionadas
+
+7) Por fim, clique em "Escrever modificações"
+
+8) Crie um arquivo na raiz do repositório chamado "users.csv"
+
+9) Abra o arquivo "users.csv" e na primeira célula escreva:
+
+	admin, admin
+
+10) Abra um terminal apertando "Windows + R" e escrevendo "cmd"
+
+11) Dentro do terminal, navegue até a pasta do repositório e rode
+o comando:
+
+	python adduser.py
+
+Seu usuário deve ter sido criado com sucesso
+
+12) Agora, em outro terminal na mesma pasta, rode o comando:
+
+	python softdes.py
+
+Abra seu navegador e entre na URL http://127.0.0.1:80
+
+13) Digite seu usuário e senha, a senha é o mesmo nome do usuário,
+por exemplo:
+
+	usuário: admin
+	senha:   admin
+
+14) Você agora deve ter acesso ao servidor de desafios
